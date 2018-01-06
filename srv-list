@@ -1,0 +1,54 @@
+[PROFILE]	[SEVERs]
+########################
+
+cgn	pish-cgn1
+cgn	pish-cgn2
+cgn	shatel-cgn1
+cgn	shatel-cgn2
+cgn	shatel-cgn3
+cgn	shatel-cgn4
+cgn	shatel-cgn5
+cgn	shatel-cgn6
+cgn	shatel-cgn7
+cgn	shatel-cgn8
+cgn	rightel-cgn1
+cgn	rightel-cgn2
+cgn	rightel-cgn3
+cgn	rightel-cgn4
+cgn	rightel-cgn5
+cgn	rightel-cgn6
+
+logger	shatel-xdrc1
+logger	shatel-xdrc2
+logger	shatel-ipdr1
+logger	shatel-ipdr2
+logger	shatel-ipdr3
+
+logger	shatel-mon1
+logger	shatel-mon2
+logger	shatel-mon3
+
+logger	rightel-ipdr1
+logger	rightel-ipdr2
+
+logger	pish-udr
+logger	pish-mon
+logger	rightel-udr1
+logger	rightel-udr2
+
+logger asiatech-coll-1
+logger asiatech-coll-2
+
+storage	shatel-db
+storage	rightel-xdrc1
+storage	rightel-xdrc2
+storage	pish-ipdr
+storage	asiatech-master
+storage	asiatech-stor-1
+storage	asiatech-stor-2
+storage	asiatech-stor-3
+storage	asiatech-stor-4
+
+storage	rightel-udrdb
+
+
