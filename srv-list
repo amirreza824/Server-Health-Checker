@@ -49,6 +49,9 @@ storage	asiatech-stor-2
 storage	asiatech-stor-3
 storage	asiatech-stor-4
 
-storage	rightel-udrdb
+#storage	rightel-udrdb
 
-
+cgn	pish-cgn3
+cgn	pish-cgn4
+logger	01-udr
+storage	01-fusion

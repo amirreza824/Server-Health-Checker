@@ -6,9 +6,9 @@ set -u
 
 PWD=$(pwd)
 
-PROF_CGN_FL="(df)"             ## Example: "(sys|cpu|ram|nic|cgn)"
-PROF_LOGGER_FL="(disk)"   ## Example: "(sys|cpu|ram|nic|hdd|logger)"
-PROF_STORAGE_FL="(disk)"     ## Example: "(cpu|ram|nic|hdd|storage)"
+PROF_CGN_FL="(sys)"             ## Example: "(sys|cpu|ram|nic|cgn)"
+PROF_LOGGER_FL="(sys|disk)"        ## Example: "(sys|cpu|ram|nic|disk|logger)"
+PROF_STORAGE_FL="(sys|disk)"       ## Example: "(cpu|ram|nic|disk|storage)"
 
 SCRT_CGN=$(ls ${PWD}/fun/ | grep -Ei "${PROF_CGN_FL}" )
 SCRT_LOGGER=$(ls ${PWD}/fun/ | grep -Ei "${PROF_LOGGER_FL}" )

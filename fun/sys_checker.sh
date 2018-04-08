@@ -64,6 +64,7 @@ FUN_SYS_UPTIME () {
   local S=$((T%60))
 
 #REF:http://www.cplusplus.com/reference/cstdio/printf/
+  FUN_TXT INFO ":"
 
   [ $D -gt 0 ] && printf '%d days ' $D
   [ $H -gt 0 ] && printf '%d hours ' $H
@@ -120,14 +121,14 @@ FUN_HW_INFO () {
 
 
 FUN_SYS_UPTIME ${UPTIME}
-FUN_SYS_TTY
+#FUN_SYS_TTY
 
-FUN_KRN_NAME
-#FUN_KRN_ACT_MUD ## What module is Enable on This server
+#FUN_KRN_NAME
+###FUN_KRN_ACT_MUD ## What module is Enable on This server
 
-FUN_SYS_TIME ## Diff realtime with Server Time and check Server TimeZone
+#FUN_SYS_TIME ## Diff realtime with Server Time and check Server TimeZone
 
-FUN_HW_INFO
+#FUN_HW_INFO
 
 
 # Temp Files Cleaning ...
